@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PROFILE</title>
+
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    body {
+        background-color: #0099ff;
+        color: #000000;
+        line-height: 1.6;
+    }
+
+
+    header {
+        background-color: #0099ff;
+        color: rgb(246, 250, 248);
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+
+    main {
+        padding: 30px;
+    }
+
+
+    section {
+        margin-bottom: 50px;
+    }
+
+    article {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(10, 10, 10, 0.1);
+    }
+
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .profile img {
+        display: block;
+        width: 200px;
+        height: auto;
+        margin-top: 30px;   
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+
+    .profile .info p {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+
+    .columns {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+
+    ul {
+        padding-left: 20px;
+    }
+
+    ul li {
+        margin-bottom: 8px;
+    }
+
+
+    .favorite {
+        text-align: left;
+    }
+
+    .favorite img {
+         display: inline;
+         margin: 20px auto; 
+         width: 100%;
+         max-width: 250px;
+        border-radius: 10px;
+    }
+
+    .favorite h3 {
+        margin-top: 10px;
+    }
+
+
+    footer {
+        background-color: #0099ff;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+
+    @media (max-width: 600px) {
+        nav ul {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .profile img {
+            width: 150px;
+         }
+        }
+        </style>
+        </head>
+        
+<body>
+    <header>
+        <h1><b>MY PROFILE</b></h1>
+        <nav>
+            <ul>
+                <a href="#about">About Me</a>
+                <a href="#hobbies">My Hobbies</a>
+                <a href="#favorites">My Favorite</a>
+            </ul>
+        </nav>
+    </header>
+
+    <!--ABOUT ME-->
+    <section id="about">
+        <article>
+            <h2><b>ABOUT MYSELF</b></h2>
+
+            <dic class="profile">
+                <img src="C:\DUMOPOL\lab_activity\img\johnmardumopol.png" alt="Profile Picture" height="150" width="150">
+                <p><strong>Name:</strong> JOHN MAR DUMOPOL </p>
+                <p><strong>Course:</strong> BSCS 2nd year</p>
+                <p><strong>Birthdate:</strong> APRIL 26, 2006</p>
+                <p><strong>Address:</strong> P-1, PUNTA, NASIPIT, ADN</p> <a href="https://maps.app.goo.gl/gLgUAD1V63Fe9X348">click me</a> 
+            </dic>
+
+            <div class="columns">
+                <section>
+                    <h3>Childhood</h3>
+                    <p>
+                        I use to play <i>basketball, computer in computer shop</i> and other things with my bestfriend and we enjoy every second.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Teenage Life</h3>
+                    <p>
+                        In my Teenage life it not so fun any more because i being bully in my past school. but there some of friend protect be and save me everuy time.
+                    </p>
+                </section>
+
+                <section>
+                <h3>Adulthood</h3>
+                    <p>
+                       In my adulthood, I move in new places, new people, and new tradition, and I continue my course with all of my best in my subject and in my work as a Student Assistant.
+                    </p>
+                </section>
+        </article>
+    </section>
+
+    <!-- HOBBIES -->
+    <section id="hobbies">
+        <article>
+            <h2><b>My Hobbies</b></h2>
+
+            <div class="columns">
+                <section>
+                    <h3>Hobbies at Home</h3>
+                    <ul>
+                        <li>Watching Anime & Movies</li>
+                        <li>Eating Foods Specially to my Favorite</li>
+                        <li>Playing video games(ML, Clash of Clans, and other things</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Hobbies Outside</h3>
+                    <ul>
+                        <li>Traveling</li>
+                        <li>Swimming</li>
+                        <li>Buying New Things</li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+    </section>
+    
+    <!-- MY FAVORITE -->
+    <section id="favorites">
+        <article>
+
+            <section class="favorite">
+                <h2><b>My Favorites</b></h2>
+                <img src="C:\DUMOPOL\lab_activity\img\download (3).jpg" alt="Favorite Food">
+                <h3>My Most Favorite Artist</h3>
+                <p>This have a best song I ever hear.</p>
+            </section>
+
+            <section class="favorite">
+                <img src="C:\DUMOPOL\lab_activity\img\download.jpg" alt="Favorite Food">
+                <h3>My Most Favorite Food</h3>
+                <p>This food is my favorite bucause it delicious.</p>
+
+                <h3>Other Favorite Food</h3>
+                <ul>
+                    
+                    <li>Sinigang</li>
+                    <li>Adobo</li>
+                    <li>Sisig</li>
+                </ul>
+            </section>
+
+                <section class="favorite">
+                    <img src="C:\DUMOPOL\lab_activity\img\download (1).jpg" alt="Favorite Place">
+                    <h3>Favorite Anime</h3>
+                    <p>This Anime makes my day lot of fun because of it comedy themes combine with a action scene make this anime best anime I watch.</p>
+                    <h3>Other Favorite Anime</h3>
+                    <ul>
+                        <li>One Piece</li>
+                        <li>Jujutsu Kaisen</li>
+                        <li>Fire Force</li>
+                        <li>Let This Grieving Soul Retire</li>
+                        <li>Black Clover</li>
+                        <li>Dr. STONE</li>
+                    </ul>
+                </section>
+
+                <section class="favorite">
+                    <img src="C:\DUMOPOL\lab_activity\img\BEACH.jpg" alt="Favorite Place">
+                    <h3>My Most Favorite Place</h3>
+                    <p>This Place make my mind clear if something is bother me.</p>
+                    <h3>Other Favorite Anime</h3>
+                    <ul>
+                        <li>Mountains</li>
+                        <li>Mall</li>
+                        <li>Park</li>
+                    </ul>
+                </section>
+        </article>
+    </section>
+
+</main>
+
+<footer>
+    <a href="https://maps.app.goo.gl/gLgUAD1V63Fe9X348">MY HOME ADDRESS</a>
+</footer>
+</body>
+</html>
