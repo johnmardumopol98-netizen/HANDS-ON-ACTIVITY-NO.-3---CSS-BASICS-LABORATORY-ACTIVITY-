@@ -9,7 +9,10 @@
 
 
 body {
-    background-color: rgb(192, 192, 192);
+    background-image: url('img_girl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     color: rgb(0, 0, 0);
     line-height: 1.6;
 }
@@ -136,6 +139,7 @@ footer {
         width: 150px;
     }
 }
+
 
 
 
