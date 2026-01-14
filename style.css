@@ -101,11 +101,11 @@ ul li {
 
 
 .favorite {
-    text-align: center;
+    text-align: left;
 }
 
 .favorite img {
-    display: block;
+    display: inline;
     margin: 20px auto; 
     width: 100%;
     max-width: 250px;
@@ -136,6 +136,7 @@ footer {
         width: 150px;
     }
 }
+
 
 
 
