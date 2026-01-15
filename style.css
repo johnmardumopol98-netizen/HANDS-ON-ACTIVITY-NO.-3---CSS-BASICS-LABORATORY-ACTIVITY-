@@ -136,6 +136,18 @@ footer {
     margin-top: 50px;
 }
 
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* space between logos */
+}
+
+.logos img {
+  width: 150px;
+  height: auto;
+}
+
 
 /* RESPONSIVE */
 @media (max-width: 600px) {
@@ -310,6 +322,7 @@ footer {
         height: 180px;
     }
 }
+
 
 
 
