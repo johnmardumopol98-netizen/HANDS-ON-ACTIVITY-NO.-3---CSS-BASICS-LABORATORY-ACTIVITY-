@@ -278,7 +278,7 @@ footer {
     margin-bottom: 8px;
     font-size: 15px;
     color: #007f7f;
-    border-left: 4px solid #00a8a8;
+    border-left: none;
     padding-left: 8px;
 }
 
@@ -310,6 +310,7 @@ footer {
         height: 180px;
     }
 }
+
 
 
 
