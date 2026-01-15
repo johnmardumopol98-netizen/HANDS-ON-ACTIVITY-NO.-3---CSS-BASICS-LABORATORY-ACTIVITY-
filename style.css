@@ -136,18 +136,25 @@ footer {
     margin-top: 50px;
 }
 
-.logos {
+.header-logos {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px; /* space between logos */
+  gap: 50px;       /* space between logos */
+  margin-top: 20px;
 }
 
-.logos img {
+.header-logos img  {
   width: 150px;
   height: auto;
 }
 
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
 
 /* RESPONSIVE */
 @media (max-width: 600px) {
@@ -322,6 +329,7 @@ footer {
         height: 180px;
     }
 }
+
 
 
 
