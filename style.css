@@ -138,7 +138,7 @@ footer {
 
 .header-logos {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   gap: 50px;       /* space between logos */
   margin-top: 20px;
@@ -329,6 +329,7 @@ footer {
         height: 180px;
     }
 }
+
 
 
 
