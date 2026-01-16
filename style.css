@@ -17,6 +17,8 @@ body {
 
 /* HEADER */
 header {
+    background: linear-gradient(135deg, #006d6f, #00a8a8);
+    padding: 25px 0;
   position: relative;
 }
 /* main header layout */
@@ -375,6 +377,7 @@ footer {
         height: 180px;
     }
 }
+
 
 
 
