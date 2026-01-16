@@ -17,10 +17,8 @@ body {
 
 /* HEADER */
 header {
-  background: linear-gradient(135deg, #006d6f, #00a8a8);
-  padding: 25px 0;
+  position: relative;
 }
-
 /* main header layout */
 .header-container {
   display: flex;
@@ -29,13 +27,19 @@ header {
   padding: 0 60px;
 }
 
+.header-container h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* title */
 header h1 {
-  flex: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
-  color: #ffffff;
-  font-size: 38px;
-  letter-spacing: 4px;
+  width: auto;
   margin: 0;
 }
 nav a {
@@ -371,6 +375,7 @@ footer {
         height: 180px;
     }
 }
+
 
 
 
